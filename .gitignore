@@ -1,0 +1,50 @@
+# Секреты и локальная конфигурация
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.python-version
+.venv/
+venv/
+build/
+dist/
+
+# Проверки качества
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Данные приложения
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.faiss
+*.index
+*.index.*
+*.pkl
+*.pickle
+*.session
+*.session-journal
+
+# Логи и временные файлы
+*.log
+logs/
+*.tmp
+*.pid
+
+# IDE и ОС
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
